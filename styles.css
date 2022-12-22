@@ -1,5 +1,5 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Noto+Sans:ital,wght@1,500&family=Open+Sans&family=Rubik+Gemstones&display=swap');
+font-family: 'Noto Sans', sans-serif;
 
 .txt-area{
     width: 70%;
@@ -26,6 +26,9 @@ textarea{
     text-align: center;
     border-radius: 10px;
 }
+
+
+
 
 #output{
     border: 1px solid #000;
