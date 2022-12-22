@@ -15,7 +15,7 @@
     }
     #output{
         width: 85%;
-        border: 2px solid black;
+        border: 3px solid black;
         height: 9vh;
         margin: 1rem;
         padding: 1rem;
@@ -29,10 +29,17 @@
 <body>
 
     <h1> Minion Translator </h1>
-    <textarea id="txt-input" placeholder="Put your sentence in English and We will translate it to minion language."></textarea>
-    <button id="btn-translate" class="btn"> Translate </button>
 
-    <div style="font-size: larger;" class="output-txt">Your translated text 👇</div>
+    <textarea id="txt-input" placeholder="Put your sentence in English and We will translate it to minion language."></textarea>
+    
+    <div class="container">
+
+    <button id="btn-translate" class="btn"> Translate </button> 
+    
+    </div>
+
+    <div class="output-txt">Your translated text 👇</div>
+
     <div id="output"></div>
 
 
